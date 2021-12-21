@@ -16,6 +16,7 @@ for line in fin.readlines():
 
 pastList.sort()
 out = [1]*n
+print(pastList)
 for a,b in pastList:
     if out[a] == out[b]:
         out[b] += 1
